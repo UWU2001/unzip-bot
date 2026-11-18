@@ -9,8 +9,10 @@
   "cloneSubmodules": true,
   "commitBodyTable": true,
   "configMigration": true,
-  "dependencyDashboard": true,
-  "dependencyDashboardOSVVulnerabilitySummary": "unresolved",
+  "dependencyDashboard": {
+    "enabled": true,
+    "osvVulnerabilitySummary": "unresolved"
+  },
   "draftPR": true,
   "enabled": true,
   "extends": [
